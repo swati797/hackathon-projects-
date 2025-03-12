@@ -4,85 +4,195 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Full Stack Developer Roadmap</title>
-    <style>
+<style>
+   Styles */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
+            background-color: white#0f172a;
+            color: #7d2fb8;
+            line-height: 1.6;
         }
+
+        a {
+            color: #7b72a0;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #1a9cbc;
+        }
+
         .container {
             width: 100%;
             max-width: 1200px;
-            background-color: #fff;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            margin: 0 auto;
+            background-color: white#4e71a3;
+            box-shadow: 0 10px 30px rgba(213, 197, 197, 0.3);
             border-radius: 12px;
             overflow: hidden;
         }
+
         header {
-            background-color: #2c3e50;
+            background: linear-gradient(135deg, #2c3e50, #34495e);
             color: white;
             padding: 2em;
             text-align: center;
             font-size: 2.5em;
             font-weight: bold;
+            border-bottom: 4px solid #77479b;
         }
+
         .content-box, .content-box2 {
             padding: 2.5em;
             line-height: 1.8;
-            color: #333;
+            color: #e2e8f0;
         }
+
         .content-box h2, .content-box2 h3 {
-            color: #2c3e50;
+            color: #16a085;
             margin-bottom: 1.5em;
+            font-size: 2em;
+            font-weight: 600;
         }
+
         .content-box p, .content-box2 p {
             font-size: 1.1em;
             margin-bottom: 1.5em;
+            color: #cbd5e1;
         }
+
+        .highlight {
+            font-weight: bold;
+            color: #16a085;
+        }
+
         .image-container {
             display: flex;
             justify-content: center;
             padding: 2em;
-            background-color: #ecf0f1;
+            background-color: #2d3748;
+            margin: 2em 0;
+            border-radius: 8px;
         }
+
         .image-container img {
             max-width: 100%;
             height: auto;
             border-radius: 8px;
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         }
+
         ul {
             padding-left: 1.5em;
             font-size: 1.1em;
+            color: #cbd5e1;
         }
+
         li {
             margin-bottom: 1em;
         }
-        .highlight {
-            font-weight: bold;
+
+        /* Code Blocks */
+        code {
+            background-color: #2d3748;
+            padding: 0.2em 0.4em;
+            border-radius: 4px;
+            font-family: 'Courier New', Courier, monospace;
+            color: #6f60a9;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            padding: 0.8em 1.5em;
+            background-color: #16a085;
+            color: white;
+            border-radius: 8px;
+            text-align: center;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #642a8a;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                font-size: 2em;
+                padding: 1.5em;
+            }
+
+            .content-box, .content-box2 {
+                padding: 1.5em;
+            }
+
+            .content-box h2, .content-box2 h3 {
+                font-size: 1.5em;
+            }
+        }
+
+        /* Additional Styling for Sections */
+        section {
+            margin-bottom: 3em;
+        }
+
+        section h2 {
+            font-size: 1.8em;
             color: #16a085;
+            margin-bottom: 1em;
+            border-bottom: 2px solid #16a085;
+            padding-bottom: 0.5em;
+        }
+
+        section h3 {
+            font-size: 1.5em;
+            color: #16a085;
+            margin-bottom: 1em;
+        }
+
+        section h4 {
+            font-size: 1.2em;
+            color: #16a085;
+            margin-bottom: 1em;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2em;
+            background-color: #2c3e50;
+            color: #cbd5e1;
+            margin-top: 3em;
+        }
+
+        footer a {
+            color: #16a085;
+        }
+
+        footer a:hover {
+            color: #1abc9c;
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <header>
             Full Stack Developer Roadmap By- Learnify
         </header>
         <div class="content-box">
-            <h2>What is a Full Stack Developer?</h2>
+            <h2 style="color: #21693d;">What is a Full Stack Developer?</h2>
             <p><span class="highlight">Web Developer / Full Stack Web Developer</span> — Embarking on this journey means mastering both <span class="highlight">front-end</span> (user interface) and <span class="highlight">back-end</span> (server, database) technologies. The field is fast-paced and exciting, with around <span class="highlight">26 million software developers globally</span> — a number that keeps growing. If you're just starting out, don't worry — let's break it down step by step!</p>
         </div>
         <div class="image-container">
             <img src="https://timesproweb-static-backend-prod.s3.ap-south-1.amazonaws.com/Full_Stack_Developer_1_1ca9fe8ca7.webp" alt="Full Stack Developer Roadmap">
         </div>
         <div class="content-box2">
-            <h3>Why Become a Full Stack Developer?</h3>
+            <h3 style="color: rgb(5, 235, 62);">Why Become a Full Stack Developer?</h3>
             <p>A web developer creates dynamic websites for businesses and startups. A <span class="highlight">full-stack developer</span> works on both the <span class="highlight">front-end</span> — how a site looks — and the <span class="highlight">back-end</span> — how data is processed and stored. This role is highly in demand across remote (WFH) and office-based (WFO) jobs. Companies — from startups to MNCs — seek web developers to strengthen their online presence.</p>
             <h3>Step-by-Step Roadmap</h3>
             <p>Follow this simple roadmap to kickstart your journey:</p>
@@ -95,7 +205,7 @@
                 <li><span class="highlight">6. Build Projects:</span> Apply your skills by building real-world projects.</li>
             </ul>
             <p>Consistency, practice, and curiosity are your keys to mastering full-stack development. Start small, stay dedicated, and keep building!</p>
-            <p>
+            <p style="color: rgb(16, 160, 86);">
                 <strong>1.1 MERN Stack:</strong><br>
                 The <span class="highlight">MERN</span> stack is one of the most popular and trending technologies in full-stack development. It consists of:
                 <ul>
@@ -105,15 +215,15 @@
                     <li><strong>Node.js:</strong> A runtime environment that allows JavaScript to run on the server side.</li>
                 </ul>
                 
-                <strong>1.2 MEAN Stack:</strong><br>
+                <strong style="color: rgb(56, 199, 185);">1.2 MEAN Stack:</strong><br>
                 The <span class="highlight">MEAN</span> stack is similar to MERN, with one key difference — it uses <strong>Angular</strong> instead of React. 
-                <ul>
+                <ul style="color: rgb(21, 165, 129);">
                     <li><strong>Angular:</strong> A TypeScript-based front-end framework for building structured and scalable web applications.</li>
                 </ul>
                 The choice between MERN and MEAN depends on your preference — <strong>React</strong> offers flexibility, while <strong>Angular</strong> provides a more opinionated structure. Both stacks share MongoDB, Express.js, and Node.js as core components.
             </p>
             
-            <p>
+            <p style="color: rgb(9, 130, 9);" >
                 <strong>2. Frontend Development:</strong><br>
                 The first step in your Full Stack Developer roadmap is mastering <strong>Frontend Development</strong>. The front end, or <span class="highlight">User Interface (UI)</span>, focuses on how a website looks and feels — its interactivity and design. 
             </p>
@@ -121,14 +231,14 @@
                 <img src="https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-html/sta-je-html.jpg">
             </div>
             
-            <p>
-                <strong>2.1 HTML (HyperText Markup Language):</strong><br>
+            <p style="color: #642a8a;">
+                <strong>2.1<u> HTML (HyperText Markup Language)</u>:</strong><br>
                 HTML forms the backbone of every website. It’s a standard language used to structure web pages using elements and tags. Begin by creating a simple webpage that includes tables, forms, images, and links. Focus on building visually appealing layouts while understanding HTML’s core concepts.
             </p>
             
-            <p>
+            <p style="color: #6f60a9;">
                 <strong>Key HTML concepts to master:</strong>
-                <ul>
+                <ul style="color:aqua ;">
                     <li>HTML Basics</li>
                     <li>Semantic vs. Non-Semantic Elements</li>
                     <li>HTML Tags</li>
@@ -142,23 +252,23 @@
                 </ul>
                 Solidify your HTML knowledge before moving forward — it’s the foundation of everything you’ll build.
             </p>
-            <p>You can learn complete HTML by clicking on this link — <a href="https://youtu.be/kUMe1FH4CHE?si=rtn-lFspUxkd8lkU" target="_blank" rel="noopener noreferrer">HTML Tutorial</a></p>
+            <p style="color: #383439;">You can learn complete HTML by clicking on this link — <a href ="https://youtu.be/kUMe1FH4CHE?si=rtn-lFspUxkd8lkU" target="_blank" rel="noopener noreferrer">HTML Tutorial</a></p>
 
             <div class="image-container">
                 <img src="https://sabe.io/classes/css/hero.png">
             </div>
 
-            <h2>2.2 CSS (Cascading Style Sheets)</h2>
+            <h2 style="color: #3b149c;">2.2 CSS (Cascading Style Sheets)</h2>
         <p>CSS is the next step in the Full Stack Developer Roadmap. If you love creativity, CSS is a must-learn. With CSS, you can:</p>
-        <ul>
+        <ul style="color: rgb(192, 19, 88);">
             <li>Add colors to your website</li>
             <li>Create borders for headings and paragraphs</li>
             <li>Design navigation bars</li>
             <li>Style icons, fonts, and text</li>
             <li>Ensure responsiveness for different screen sizes</li>
         </ul>
-        <p>Master the following CSS concepts before moving to the next step:</p>
-        <ul>
+        <p style="color: rgb(186, 112, 141);">Master the following CSS concepts before moving to the next step:</p>
+        <ul style="color: rgb(192, 19, 88);">
             <li>CSS Colors</li>
             <li>CSS Borders</li>
             <li>CSS Margins and Paddings</li>
@@ -174,25 +284,25 @@
             <li>CSS Transitions</li>
         </ul>
 
-        <h3>CSS Frameworks</h3>
-        <p>Once you've grasped CSS basics, most developers use a framework like <strong>Tailwind CSS</strong> or <strong>Bootstrap</strong> to streamline their workflow.</p>
+        <h3 style="color: rgb(186, 112, 141);">CSS Frameworks</h3>
+        <p style="color: rosybrown;">Once you've grasped CSS basics, most developers use a framework like <strong>Tailwind CSS</strong> or <strong>Bootstrap</strong> to streamline their workflow.</p>
 
-        <h4>Bootstrap</h4>
-        <p>Bootstrap is a popular, beginner-friendly CSS framework. Key concepts include:</p>
-        <ul>
-            <li>Containers</li>
+        <h4 style="color: salmon;">Bootstrap</h4>
+        <p style="color: #af4263;">Bootstrap is a popular, beginner-friendly CSS framework. Key concepts include:</p>
+        <ul style="color: rgb(192, 19, 88);">
             <li>Tables</li>
             <li>Buttons</li>
+            <li>Containers</li>
             <li>Spinners</li>
             <li>Cards</li>
             <li>Navigation Bars</li>
             <li>Carousels</li>
         </ul>
-        <p>Learn more about Bootstrap: <a href="https://youtu.be/-qfEOE4vtxE?si=5asL2GTeRl0GIq0R">Bootstrap </a></p>
+        <p style="color: #c01347;"></u>Learn more about Bootstrap<u></u>: <a href="https://youtu.be/-qfEOE4vtxE?si=5asL2GTeRl0GIq0R">Bootstrap </a></p>
 
-        <h4>Tailwind CSS</h4>
-        <p>Alternatively, you can use Tailwind CSS. Important concepts include:</p>
-        <ul>
+        <h4 style="color: rgb(202, 117, 107);">Tailwind CSS</h4>
+        <p style="color: salmon;">Alternatively, you can use Tailwind CSS. Important concepts include:</p>
+        <ul style="color: rosybrown;">
             <li>Introduction to Tailwind CSS</li>
             <li>Layouts</li>
             <li>Backgrounds</li>
@@ -211,22 +321,22 @@
             <li>Interactivity</li>
             <li>SVG</li>
         </ul>
-        <p>Learn more about Tailwind CSS: <a href="https://youtu.be/ft30zcMlFao?si=SQ6s3qbzwx_HuOPe" target="_blank">Tailwind CSS </a>.</p>
+        <p style="color: rgb(131, 22, 10);">Learn more about Tailwind CSS: <a href="https://youtu.be/ft30zcMlFao?si=SQ6s3qbzwx_HuOPe" target="_blank">Tailwind CSS </a>.</p>
 
         
 
-        <p>Once you are confident with a CSS framework, you are ready to move on to the next crucial part of web development: <strong>JavaScript</strong>.</p>
+        <p style="color: #c01347;">Once you are confident with a CSS framework, you are ready to move on to the next crucial part of web development: <strong>JavaScript</strong>.</p>
 
         <div class="image-container">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUqWsYIhbDZ0sceZ8ft3WUJg9H38TQs-4LTw&s">
         </div>
         
 
-        <h2>2.3 JavaScript</h2>
-        <p>JavaScript is the programming language of the web. It plays a crucial role in web development by making websites dynamic and interactive. With JavaScript, developers can handle events, manipulate data, and communicate with servers, enhancing user experience significantly.</p>
+        <h2 style="color: #642a8a;"><u>2.3 JavaScript</u></h2>
+        <p style="color: #832dc5;">JavaScript is the programming language of the web. It plays a crucial role in web development by making websites dynamic and interactive. With JavaScript, developers can handle events, manipulate data, and communicate with servers, enhancing user experience significantly.</p>
     
-        <h3>Key JavaScript Concepts to Learn:</h3>
-        <ul>
+        <h3 style="color: #7b72a0;">Key JavaScript Concepts to Learn:</h3>
+        <ul style="color: #7b72a0;">
             <li><strong>JS Basics</strong> — Understand variables, data types, and basic syntax.</li>
             <li><strong>JS Operators</strong> — Learn about arithmetic, logical, and comparison operators.</li>
             <li><strong>JS Loops</strong> — Master loops like <code>for</code>, <code>while</code>, and <code>do-while</code>.</li>
@@ -241,32 +351,32 @@
             <li><strong>DOM (Document Object Model)</strong> — Understand how to manipulate HTML and CSS dynamically.</li>
         </ul>
     
-        <p><strong>Note:</strong> Ensure you also learn about <strong>DOM</strong> (Document Object Model) and <strong>API</strong> (Application Program Interface) as they are vital for modern web development.</p>
+        <p style="color: #3b149c;"><strong>Note:</strong> Ensure you also learn about <strong>DOM</strong> (Document Object Model) and <strong>API</strong> (Application Program Interface) as they are vital for modern web development.</p>
     
-        <p>For a deeper understanding of JavaScript, check out this comprehensive course: <a href="https://youtu.be/grEKMHGYyns?si=hbPQg9bis3qsxHQue" target="_blank">JavaScript Course</a>.</p>
+        <p style="color: #472b8f;">For a deeper understanding of JavaScript, check out this comprehensive course: <a href="https://youtu.be/grEKMHGYyns?si=hbPQg9bis3qsxHQue" target="_blank">JavaScript Course</a>.</p>
         <div class="image-container">
             <img src="https://www.fathym.com/img/reactvueangular.jpg">
         </div>
         
         <section id="frameworks">
             <h2>2.4 Frameworks</h2>
-            <p>
+            <p style="color: #279d54;">
                 Frameworks provide a platform for building software applications. They include programs, code libraries, and compilers that work together to streamline development. Frameworks help make components reusable, making it easier to manage large-scale projects.
             </p>
-            <p>
+            <p style="color:rgb(118, 158, 59) ;">
                 Before diving into frameworks, ensure you have a solid grasp of <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. This foundational knowledge will make it much easier to learn any front-end library or framework.
-            </p>
+            </p >
         
-            <h3>Popular Frontend Frameworks</h3>
-            <ul>
-                <li><strong>React:</strong> A JavaScript library for building single-page applications (SPA). It's component-based and helps create interactive UIs efficiently. <br> <a href="https://youtu.be/eILUmCJhl64?si=y6_FdH6nvUxQ3qKT" target="_blank
+            <h3 style="color: #279d54;">Popular Frontend Frameworks</h3>
+            <ul style="color: rgb(95, 168, 95);">
+                <li style="color: rgb(65, 169, 75);"><strong>React:</strong> A JavaScript library for building single-page applications (SPA). It's component-based and helps create interactive UIs efficiently. <br> <a href="https://youtu.be/eILUmCJhl64?si=y6_FdH6nvUxQ3qKT" target="_blank
                     ">Learn React</a></li>
-                <li><strong>Angular:</strong> A Google-created JavaScript framework widely used for front-end development. It offers a comprehensive solution for building dynamic web applications. <br> <a href="https://youtu.be/3qBXWUpoPHo?si=WMN-T5dniindDOUe " target="_blank">Learn Angular</a></li>
-                <li><strong>Vue:</strong> A progressive JavaScript framework known for its simplicity and flexibility, great for both small and large-scale projects.</li>
+                <li style="color: rgb(65, 169, 75);"><strong>Angular:</strong> A Google-created JavaScript framework widely used for front-end development. It offers a comprehensive solution for building dynamic web applications. <br> <a href="https://youtu.be/3qBXWUpoPHo?si=WMN-T5dniindDOUe " target="_blank">Learn Angular</a></li>
+                <li style="color: rgb(47, 106, 47);"><strong>Vue:</strong> A progressive JavaScript framework known for its simplicity and flexibility, great for both small and large-scale projects.</li>
             </ul>
         
-            <h4>Key React Concepts to Learn</h4>
-            <ul>
+            <h4 style="color: #60bc83;">Key React Concepts to Learn</h4>
+            <ul style="color: #277143;">
                 <li>React Fundamentals</li>
                 <li>Components</li>
                 <li>Props & States</li>
@@ -275,8 +385,8 @@
                 <li>Advanced React</li>
             </ul>
         
-            <h4>Key Angular Concepts to Learn</h4>
-            <ul>
+            <h4 style="color: #3ca363;">Key Angular Concepts to Learn</h4>
+            <ul style="color: #21693d;">
                 <li>AngularJS Basics</li>
                 <li>Directives</li>
                 <li>Filters</li>
@@ -285,20 +395,20 @@
                 <li>Other Functions</li>
             </ul>
         
-            <p>After mastering frontend frameworks, you're ready to apply for frontend developer roles. If you're pursuing full-stack development, let's move on to the next crucial step — <strong>Backend Development</strong>.</p>
+            <p style="color: #4fba78;">After mastering frontend frameworks, you're ready to apply for frontend developer roles. If you're pursuing full-stack development, let's move on to the next crucial step — <strong>Backend Development</strong>.</p>
         </section>
 
         <div class="image-container">
             <img src="https://appsyoda.com/blogimages/expressjs-nodejs.png">
-        </div>
+        </div style="color: aqua">
         
         <!-- <section id="backend-development">
-            <h2>3. Backend Development</h2>
-            <p>
+            <h2 >3. Backend Development</h2>
+            <p style="color:aquamarine;">
                 Backend development focuses on the server-side logic of web applications. It involves handling requests, processing data, and managing databases. The backend consists of three key components: a <strong>server</strong>, an <strong>application</strong>, and a <strong>database</strong>.
-            </p>
+            </p >
         
-            <h3>Skills Needed for Backend Development</h3>
+            <h3  >Skills Needed for Backend Development</h3>
             <ul>
                 <li>Programming Languages</li>
                 <li>Frameworks</li>
@@ -377,39 +487,39 @@
     <p>After mastering frontend frameworks, you're ready to apply for frontend developer roles. If you're pursuing full-stack development, let's move on to the next crucial step — <strong>Backend Development</strong>.</p>
 </section> -->
 
-<section id="backend-development">
-    <h2>3. Backend Development</h2>
-    <p>
+<section id ="backend-development">
+    <h2 style="color:rgb(52, 176, 91) ;">3. Backend Development</h2>
+    <p style="color: #539a6e;">
         Backend development focuses on the server-side logic of web applications. It involves handling requests, processing data, and managing databases. The backend consists of three key components: a <strong>server</strong>, an <strong>application</strong>, and a <strong>database</strong>.
     </p>
 
-    <h3>Skills Needed for Backend Development</h3>
-    <ul>
-        <li>Programming Languages</li>
+    <h3 style="color: #649c79;">Skills Needed for Backend Development</h3>
+    <ul style="color: #539a6e;">
+        <li st>Programming Languages</li>
         <li>Frameworks</li>
         <li>Databases</li>
         <li>Servers</li>
         <li>API (Application Program Interface)</li>
     </ul>
 
-    <h3>3.1 Programming Languages</h3>
-    <p>
+    <h3 style="color: #31794d;">3.1 Programming Languages</h3>
+    <p style="color: #60bc83;">
         A backend developer should be proficient in at least one programming language, such as <strong>Java</strong>, <strong>Python</strong>, or <strong>JavaScript</strong>. JavaScript is a great choice for full-stack development as it can be used both on the frontend and backend.
     </p>
 
-    <h3>3.2 Frameworks</h3>
-    <p>
+    <h3 style=" color: #1abc9c;">3.2 Frameworks</h3>
+    <p style="color: #509c8d;">
         Backend frameworks enhance development by providing pre-written code for common tasks. They include tools and modules that help structure a web application's architecture. Popular frameworks include:
     </p>
-    <ul>
+    <ul style="color: rgb(116, 116, 211);">
         <li><strong>Express.js:</strong> A minimal and flexible Node.js framework for building web applications and APIs. <br> <a href="https://youtu.be/nH9E25nkk3I?si=nkbI-57MEEq2hrlE" target="_blank">Learn Express.js</a></li>
         <li><strong>Spring Boot:</strong> A Java-based framework for creating stand-alone applications with minimal configuration.</li>
         <li><strong>Django:</strong> A Python framework focused on rapid development and clean design. <br> <a href="https://youtu.be/PtQiiknWUcI?si=1LmyuVCQPoTBPEyp" target="_blank">Join Django Course</a></li>
         <li><strong>Ruby on Rails:</strong> A full-stack framework written in Ruby, emphasizing convention over configuration.</li>
     </ul>
 
-    <h4>Key Node.js Concepts to Learn</h4>
-    <ul>
+    <h4 style="color: #6bc7b4;">Key Node.js Concepts to Learn</h4>
+    <ul style="color: rgb(54, 24, 174);">
         <li>Node.js Basics</li>
         <li>Modules (Assert, Buffer, Console, etc.)</li>
         <li>HTTP Module</li>
@@ -417,8 +527,8 @@
         <li>DNS and OS Modules</li>
     </ul>
 
-    <h4>Key Express.js Concepts to Learn</h4>
-    <ul>
+    <h4 style="border: #495b86;">Key Express.js Concepts to Learn</h4>
+    <ul style="color: rgb(214, 144, 94);">
         <li>Introduction to Express</li>
         <li>Creating Applications</li>
         <li>express() Functions</li>
@@ -426,16 +536,16 @@
         <li>Router Functions</li>
     </ul>
 
-    <h3>Client-Server Architecture</h3>
-    <p>
+    <h3 style="color: #586b96;">Client-Server Architecture</h3>
+    <p style="color: #8f78c9;">
         In client-server architecture, the client requests data from the server, and the server responds by fetching information from a database. This interaction forms the backbone of web applications and is vital for backend development.
     </p>
 </section>
 
             </ul>
         
-            <h3>Client-Server Architecture</h3>
-            <p>
+            <h3 style="color: #2c3e50;">Client-Server Architecture</h3>
+            <p style="color: #34495e;">
                 In client-server architecture, the client requests data from the server, and the server responds by fetching information from a database. This interaction forms the backbone of web applications and is vital for backend development.
             </p>
         </section>
@@ -445,18 +555,18 @@
         
         
 
-        <h2>4. Database</h2>
-        <p>The database is a collection of data from which we can manage data (store and retrieve). There are two types of databases: relational (SQL) and non-relational (NoSQL). Some popular databases are:</p>
-        <ul>
+        <h2 style="color: rgb(183, 135, 72);">4. Database</h2>
+        <p style="color: rgb(198, 156, 126);">The database is a collection of data from which we can manage data (store and retrieve). There are two types of databases: relational (SQL) and non-relational (NoSQL). Some popular databases are:</p>
+        <ul style="color: rgb(198, 156, 126);">
             <li><strong>MySQL:</strong> A relational database management system that stores and manages data.</li>
             <li><strong>MongoDB:</strong> A NoSQL database; finds key-value DBs, graph DBs.</li>
             <li><strong>VoltDB:</strong> Follows a relational pattern and uses memory to store data.</li>
         </ul>
-        <p>In MERN and MEAN stacks, <strong>M</strong> represents MongoDB, a popular NoSQL database known for its flexibility, dynamic schemas, and scalability.</p>
-        <p>Learn more about SQL by clicking on this: <a href="https://youtu.be/HXV3zeQKqGY?si=gcV-5a9Zt8nCLloC"target="_blank">SQL</a></p>
+        <p style="color: rgb(180, 120, 77);">In MERN and MEAN stacks, <strong>M</strong> represents MongoDB, a popular NoSQL database known for its flexibility, dynamic schemas, and scalability.</p>
+        <p style="color: rgb(180, 120, 77);" >Learn more about SQL by clicking on this: <a href="https://youtu.be/HXV3zeQKqGY?si=gcV-5a9Zt8nCLloC"target="_blank">SQL</a></p>
 
-        <h3>MongoDB Must-Know Concepts</h3>
-        <ul>
+        <h3 style="color: rgb(180, 120, 77);" >MongoDB Must-Know Concepts</h3>
+        <ul style="color: rgb(180, 120, 77);" >
             <li>Introduction to MongoDB</li>
             <li>Installation of MongoDB</li>
             <li>Basics of MongoDB</li>
@@ -471,9 +581,9 @@
     </section>
 
     <section>
-        <h2>5. Version Control</h2>
-        <p>Version control systems help track changes in code and manage version history. Using Git is crucial for managing projects efficiently. Popular version control systems include:</p>
-        <ul>
+        <h2 style="color: rgb(180, 120, 77);" >5. Version Control</h2>
+        <p style="color: rgb(180, 120, 77);">Version control systems help track changes in code and manage version history. Using Git is crucial for managing projects efficiently. Popular version control systems include:</p>
+        <ul style="color: rgb(180, 120, 77);" >
             <li>GitHub</li>
             <li>GitLab</li>
             <li>Beanstalk</li>
@@ -481,7 +591,7 @@
             <li>Mercurial</li>
         </ul>
 
-        <h3>Essential Git Commands</h3>
+        <h3 style="color: rgb(180, 120, 77);">Essential Git Commands</h3>
         <ul>
             <li><code>git init</code></li>
             <li><code>git config</code></li>
@@ -494,8 +604,8 @@
             <li><code>git rename</code></li>
         </ul>
 
-        <h3>Benefits of Version Control</h3>
-        <ul>
+        <h3 style="color: rgb(180, 120, 77);">Benefits of Version Control</h3>
+        <ul style="color: rgb(180, 120, 77);">
             <li>Maintains code history</li>
             <li>Reusability</li>
             <li>Tracks changes</li>
@@ -505,31 +615,31 @@
     </section>
 
     <section>
-        <h2>6. Build Projects</h2>
-        <p>Once you grasp the theory, apply your knowledge by building projects. Implement both frontend and backend components, integrating databases and mastering full-stack development concepts.</p>
-        <h3>Project Ideas</h3>
-        <ul>
+        <h2 style="color: rgb(180, 120, 77);">6. Build Projects</h2>
+        <p style="color: rgb(180, 120, 77);">Once you grasp the theory, apply your knowledge by building projects. Implement both frontend and backend components, integrating databases and mastering full-stack development concepts.</p>
+        <h3 style="color: rgb(180, 120, 77);">Project Ideas</h3>
+        <ul style="color: rgb(180, 120, 77);">
             <li>12 Best Full Stack Project Ideas</li>
             <li>Web Development Projects</li> 
-            <p>HERE I HAVE TO ADD PROJECT SITE LINK FOR PROJECTS</p>
+            <p style="color: rgb(238, 136, 3);">HERE I HAVE TO ADD PROJECT SITE LINK FOR PROJECTS</p>
         </ul>
     </section>
 
     <section>
-        <h2>UI vs UX</h2>
-        <h3>1. User Interface (UI)</h3>
-        <p>UI focuses on the design and responsiveness of the website — how users interact with buttons, forms, and elements.</p>
-        <h4>Skills for UI Designers</h4>
-        <ul>
+        <h2 style="color: rgb(180, 120, 77);">UI vs UX</h2>
+        <h3 style="color: rgb(180, 120, 77);">1. User Interface (UI)</h3>
+        <p style="color: rgb(180, 120, 77);">UI focuses on the design and responsiveness of the website — how users interact with buttons, forms, and elements.</p>
+        <h4 style="color: rgb(180, 120, 77);">Skills for UI Designers</h4>
+        <ul style="color: rgb(180, 120, 77);">
             <li>Design principles</li>
             <li>Style guides</li>
             <li>Communication and teamwork</li>
         </ul>
 
-        <h3>2. User Experience (UX)</h3>
-        <p>UX is about enhancing user satisfaction by improving the usability and accessibility of a website.</p>
-        <h4>Skills for UX Designers</h4>
-        <ul>
+        <h3 style="color: rgb(180, 120, 77);">2. User Experience (UX)</h3>
+        <p style="color: rgb(180, 120, 77);">UX is about enhancing user satisfaction by improving the usability and accessibility of a website.</p>
+        <h4 style="color: rgb(180, 120, 77);">Skills for UX Designers</h4>
+        <ul style="color: rgb(180, 120, 77);">
             <li>Problem-solving</li>
             <li>Curiosity</li>
             <li>Understanding user behavior</li>
@@ -538,7 +648,7 @@
 
     <section>
         <h2 style="color: #16a085;">Conclusion</h2>
-        <p>A full-stack developer manages both frontend and backend development, from designing user interfaces with HTML, CSS, JavaScript, and frameworks (like React and Angular) to building logical server-side processes and databases. This roadmap provides a step-by-step path to mastering full-stack development.</p>
+        <p style="color: rgb(17, 228, 91);">A full-stack developer manages both frontend and backend development, from designing user interfaces with HTML, CSS, JavaScript, and frameworks (like React and Angular) to building logical server-side processes and databases. This roadmap provides a step-by-step path to mastering full-stack development.</p>
 
             
         </div>
